@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Session01Challenge</Text>
+    <Description>Some description for Session01Challenge</Description>
+    <Assembly>Session01Challenge.dll</Assembly>
+    <FullClassName>Session01Challenge.Command</FullClassName>
+    <ClientId>64458803-b142-4f71-a347-af69704e177c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+	<AddIn Type="Command">
+		<Text>RAB Challenge 01 Command</Text>
+		<Description>Some description for Session01Challenge</Description>
+		<Assembly>Session01Challenge.dll</Assembly>
+		<FullClassName>Session01Challenge.Command01Challenge</FullClassName>
+		<ClientId>a243aa37-8f2a-48f3-b22b-0e918471a7ce</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+  <AddIn Type="Application">
+    <Name>Application Session01Challenge</Name>
+    <Assembly>Session01Challenge.dll</Assembly>
+    <FullClassName>Session01Challenge.App</FullClassName>
+    <ClientId>f4563f26-7c2b-42b3-977e-4e924ffde43d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
