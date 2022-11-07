@@ -40,10 +40,10 @@ namespace Session01Challenge
             t.Start();
             for (var i = 0; i <= 100; i++)
             {
-                var offset = new XYZ(0, 1, 0);
+                XYZ offset = new XYZ(0,i++/32,0);
                 newPoint.Add(offset);
                 var xxx = Fizzbuzz(i);
-                var myTextNote = TextNote.Create(doc, doc.ActiveView.Id, newPoint.Add(offset), xxx,
+                var myTextNote = TextNote.Create(doc, doc.ActiveView.Id, offset, xxx,
                     collector.FirstElementId());
 
             }
