@@ -40,7 +40,7 @@ namespace Session01Challenge
             t.Start();
             for (var i = 0; i <= 100; i++)
             {
-                XYZ offset = new XYZ(0,i++/32,0);
+                XYZ offset = new XYZ(0, i++ / 32, 0);
                 newPoint.Add(offset);
                 var xxx = Fizzbuzz(i);
                 var myTextNote = TextNote.Create(doc, doc.ActiveView.Id, offset, xxx,
@@ -53,7 +53,7 @@ namespace Session01Challenge
         }
 
         public XYZ UpDirection { get => upDirection; set => upDirection = value; }
-        
+
 
         private static string Fizzbuzz(int i)
         {
